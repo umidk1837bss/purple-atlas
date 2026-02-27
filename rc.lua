@@ -10,3 +10,4 @@ request({
 })
   game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"3488136a-accd-4a04-bbac-7a3d905afa14",game.Players.LocalPlayer)
 end
+-- 2
