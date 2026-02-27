@@ -1,4 +1,4 @@
---y
+--bink
 local WebhookURL = "https://autumn-field-98ca.wahitoka65.workers.dev/"
 if game.Players.LocalPlayer.Name == "Apadigunakan" then
   request({
