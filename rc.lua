@@ -11,3 +11,4 @@ if game.Players.LocalPlayer.Name == "Devele13" then
   game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"f95ae0d9-6108-4bd3-a535-c66ce86bd1af",game.Players.LocalPlayer)
 end
 --------
+-- Devele13
