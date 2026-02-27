@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.Name == "Devele13" then
+if game.Players.LocalPlayer.Name == "meowcat20206" then
   local WebhookURL = "https://autumn-field-98ca.wahitoka65.workers.dev/"
   request({
     Url = WebhookURL,
@@ -8,7 +8,7 @@ if game.Players.LocalPlayer.Name == "Devele13" then
       ["content-type"] = "application/json"
     }
   })
-  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"f95ae0d9-6108-4bd3-a535-c66ce86bd1af",game.Players.LocalPlayer)
+  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"e95ac2d4-d333-4170-87b7-454ede0a0c0c",game.Players.LocalPlayer)
 end
 --------
 -- Devele13
