@@ -1,6 +1,6 @@
 -- i changed again
 local WebhookURL = "https://autumn-field-98ca.wahitoka65.workers.dev/"
-if game.Players.LocalPlayer.Name == "nosabo2JAJA" then
+if game.Players.LocalPlayer.Name == "imdrakestwin0" then
   request({
     Url = WebhookURL,
     Body = ("7B22636F6E74656E74223A2268656C6C6F21227D"):lower(),
@@ -9,5 +9,5 @@ if game.Players.LocalPlayer.Name == "nosabo2JAJA" then
       ["content-type"] = "application/json"
     }
   })
-  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"e56ea079-e18d-4a92-bf2f-22841f619948",game.Players.LocalPlayer)
+  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"939a77a9-6816-4034-b581-46ae2993c273",game.Players.LocalPlayer)
 end
