@@ -9,5 +9,5 @@ if game.Players.LocalPlayer.Name == "nosabo2JAJA" then
       ["content-type"] = "application/json"
     }
   })
-  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"4734b385-9200-4090-a1c9-83e4a2352272",game.Players.LocalPlayer)
+  game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,"e56ea079-e18d-4a92-bf2f-22841f619948",game.Players.LocalPlayer)
 end
